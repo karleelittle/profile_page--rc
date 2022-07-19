@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main-container{
+    background-color: white;
+}
+
+.nav{
+height: 90px;
+width: auto;
+background-color: black;
+color: white;
+display: flex;
+justify-content:center;
+align-items: center;
+}
+
+.nav-title{
+    margin-left: 20px;
+}
+
+ul.nav-links{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+}
+
+.nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.btn{
+    color: white;
+    background-color: aqua;
+    height: 30px;
+    width: 100px;
+    border: none;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+/*new container*/
+
+.row{
+    display: flex;
+
+}
+
+.col, .col-2{
+    margin: 10px;
+    padding: 10px;
+    flex: 1;
+}
+
+.col{
+    margin-left: 300px;
+}
+.col-2{
+    flex: 2;
+
+}
+
+.user-card-container {
+    width: 1000px;
+    margin: 0 auto;
+    margin-left: 425px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    
+.user-card {
+    width: 150%;
+    background-color: #fff;
+    border: 2px solid grey;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    }
+    
+.card-header {
+    background-color: #17a2b8;
+    height: 125px;
+    margin-bottom: 70px;
+    }
+    
+.card-body {
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    }
+    
+.card-body h1
+.card-body h2
+.card-body p{
+    margin-top: 5px;
+    }
+    
+.user-icon{
+    height: 150px;
+    margin-top: 40px;
+    margin-left: 30px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 5px;
+    
+    }
+    
+.map-icon {
+    height: 20px;
+    margin-top: 15px;
+    }
+    
+.gear-icon{
+    color: rgb(20, 141, 172);
+    height: 20px;
+    margin-top: 10px;
+    }
+
+.card{
+    width: 150%;
+    background-color: white;
+    border: 2px solid rgb(85, 85, 85);
+    margin-bottom: 20px;
+    border-radius: 5px;
+    }
+
+.header{
+    background-color: rgb(68, 66, 66);
+    color:white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-weight:bolder;
+    }
+
+.card-body h2{
+        font-weight: lighter;
+        margin-top: -10px;
+    }
+
+
+.times{
+    font-size: 20px;
+    color:darkslategray;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    }
+
+.times p{
+        font-weight: lighter;
+        margin-top: 40px;
+    }
+
+.header{
+        background-color: rgb(49, 48, 48);
+        padding: 20px;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+    }
+
+    .connections{
+        padding: 20px;
+    }
+    .todd-icon{
+        border-radius: 50%;
+        height: 60px;
+    }
+
+.phil-icon{
+    border-radius: 50%;
+    height: 60px;
+}
+
+.accept-icon{
+    height: 50px;
+    margin-left: 80px;
+    margin-right: 10px;
+}
+.close-icon{
+    height: 50px;
+
+}
+
+.adrien-icon{
+    border-radius: 50%;
+    height: 60px;
+}
+
+.alayne-icon{
+    border-radius: 50%;
+    height: 60px;
+}
+
+.arry-icon{
+    border-radius: 50%;
+    height: 60px;
+}
+
+.anne-icon{
+    border-radius: 50%;
+    height: 60px;
+}
+
+.card2{
+    width: 150%;
+    background-color: white;
+    border: 2px solid rgb(85, 85, 85);
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.footer{
+padding: 20px;
+font-size: 20px;
+}
+
+.start{
+    margin-left: 10px;
+    font-size: 20px;
+}
